@@ -1,0 +1,33 @@
+.skill-content {
+    width: 50%;
+    margin: 10px auto;
+}
+
+@media (max-width: 670px) {
+    .skill-content{
+        width: 90%;
+    }
+}
+
+ul {
+    border: solid 2px #1e366a;
+    padding: 0.5em 1em 0.5em 2.3em;
+    position: relative;
+  }
+  
+  ul li {
+    text-align: left;
+    font-size: x-large;
+    line-height: 1.5;
+    padding: 0.5em 1.5em;
+    list-style-type: none;/*ポチ消す*/
+  }
+  
+  ul li:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    font-weight: 900;
+    position: absolute;
+    left : 1em; /*左端からのアイコンまで*/
+    color: #1e366a; /*アイコン色*/
+  }

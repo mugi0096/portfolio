@@ -1,0 +1,24 @@
+.navigation > .active {
+    border-bottom: 2px solid #fff;
+  }
+
+.material-icons {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 1000px) {
+    .material-icons {
+        display: block;
+        position: fixed;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+}
+
+.mdl-layout__obfuscator.is-visible {
+    position: fixed;
+}
+
+.mdl-layout__drawer.is-visible {
+    position: fixed;
+}
